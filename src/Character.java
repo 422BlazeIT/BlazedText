@@ -9,12 +9,5 @@ public class Character extends Thing {
 		this.MP = MP;
 		// TODO Auto-generated constructor stub
 	}	
-	
-	public int getX (){
-		return this.getX();
-	}
-	public int getY (){
-		return this.getY();
-	}
-	
+		
 }

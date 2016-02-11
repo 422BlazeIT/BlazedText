@@ -1,6 +1,6 @@
 public class Thing
 {
-	private Position pos;
+	private Position pos = new Position(0,0);
 	private int id;
 	private String name;
 
@@ -9,6 +9,13 @@ public class Thing
 		pos.setY(y);
 		id = identity;
 		this.name = name;
+	}
+	
+	public int getX (){
+		return pos.getX();
+	}
+	public int getY (){
+		return pos.getY();
 	}
 	
 	
