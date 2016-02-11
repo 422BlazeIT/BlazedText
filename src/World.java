@@ -1,9 +1,4 @@
-public class World {
-	private Position P;
-
-	public World(Position p) {
-	}
-	
+public class World{
 	
 	
 }
